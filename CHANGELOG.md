@@ -8,9 +8,14 @@ All notable changes to this project will be documented in this file.
 
 - all: update the default TLS config to disable TLS < 1.2
 
+### Breaking
+
+- disco: the `Feature` type moved to `info.Feature`
+
 ### Added
 
 - commands: new package implementing [XEP-0050: Ad-Hoc Commands]
+- disco/info: new package containing the former `disco.Feature` type
 
 ### Fixed
 
